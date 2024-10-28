@@ -79,7 +79,7 @@ def find_clusters(matrix, est1, est2):
     # return str(final_clusters)
 
 
-def task(file_path1, file_path2):
+def main(file_path1, file_path2):
     matrix1 = get_matrix(file_path1)
     matrix2 = get_matrix(file_path2)
 
@@ -93,4 +93,4 @@ def task(file_path1, file_path2):
 
 
 if __name__ == '__main__':
-    print(task("example1.json", "example2.json"))
+    print(main("example1.json", "example2.json"))
